@@ -35,7 +35,7 @@ func (repo *Repository) Create(consignment *pb.Consignment) (*pb.Consignment, er
 	updated := append(repo.consignments, consignment)
 	repo.consignments = updated
 	repo.mu.Unlock()
-	return consignments, nil
+	return consignment, nil
 }
 
 // Service should implement all of the methods to satisfy the service
