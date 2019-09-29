@@ -1,4 +1,4 @@
-module github.com/makubit/go-consignment-service
+module github.com/makubit/go-consignment-service/consignment-service
 
 go 1.13
 
